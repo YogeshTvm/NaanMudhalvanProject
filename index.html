@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="gn">
+        <h1>RPS GAME</h1>
+    </div>
+    <div id="start">start</div>
+    <div id="playerinput">
+        <input type="text" id="name" inputmode="email" placeholder="Playername"
+            onkeypress="return /[a-z]/.test(event.key)">
+    </div>
+    <div id="match">
+        <input type="text" id="mat" inputmode="email" placeholder="No of Match"
+            onkeypress="return /[0-9]/.test(event.key)">
+    </div>
+    <div id="win">
+        <p>apple</p>
+    </div>
+    <div id="save">save</div>
+    <div id="play">play</div>
+
+    <div id="playerdiv"></div>
+    <div id="pwl"></div>
+    <div id="computerdiv"></div>
+    <div id="cwl"></div>
+
+    <div id="namediv">
+        <div id="pn">player</div>
+        <div id="space"></div>
+        <div id="cn">Computer</div>
+    </div>
+
+    <div id="point">
+        <div id="ppd">0</div>
+        <div id="colon">:</div>
+        <div id="cpd">0</div>
+    </div>
+
+    <div id="img">
+        <div class="imgbtn"><img src="rock.png" id="rock" width="90px" height="90px"></div>
+        <div class="imgbtn"><img src="paper.png" id="paper" width="90px" height="90px"></div>
+        <div class="imgbtn"> <img src="scissors.png" id="scissors" width="90px" height="90px"> </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- <div id="start">
+    <P>start</P>
+</div>
+<div id="Reset">
+    <P>Reset</P>
+</div>
+<div id="playerinput">
+    <input type="text" id="name" inputmode="email" onkeypress="return /[a-z]/.test(event.key)">
+</div>
+<div id="save">
+    <P>save</P>
+</div>
+<div id="play">
+    <P>play</P>
+</div> -->
